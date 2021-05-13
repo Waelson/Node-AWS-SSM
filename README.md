@@ -29,7 +29,14 @@ npm i
 aws ssm put-parameter --name /config/database/user --value SVC_User --type String
 ```
 
-### 4 - Accessing application
+### 4 - Setting environment variables
+```bash
+export AWS_REGION = <region>
+export AWS_ACCESS_KEY = <accessKey>
+export AWS_SECRET_ACCESS_KEY = <secretAccessKey>
+
+```
+### 5 - Accessing application
 ```bash
 curl http://localhost:3000
 ```
