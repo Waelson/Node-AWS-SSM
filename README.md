@@ -42,5 +42,8 @@ curl http://localhost:3000
 ```
 Output
 ```json
-{"name":"/config/database/user","value":"SVC_User"}
+{
+  "name": "/config/database/user",
+  "value":"SVC_User"
+ }
 ```
